@@ -1,12 +1,12 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from crewai import Agent, Task, Crew
 from langchain_openai import ChatOpenAI  # Changed from LLM
 from crewai_tools import SerperDevTool
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 #os.environ["SERPER_API_KEY"] = os.getenv("SERPER_API_KEY")
 #os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
