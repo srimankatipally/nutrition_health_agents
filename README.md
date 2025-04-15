@@ -16,7 +16,7 @@ nutrition_health_agents
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/srimankatipally/nutrition_health_agents.git
    cd nutrition_health_agents
    ```
 
