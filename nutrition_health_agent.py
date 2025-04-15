@@ -1,5 +1,7 @@
-import os
+import sqlite3
 import streamlit as st
+st.write("SQLite version:", sqlite3.sqlite_version)
+import os
 from dotenv import load_dotenv
 from crewai import Agent, Task, Crew
 from langchain_openai import ChatOpenAI  # Changed from LLM
