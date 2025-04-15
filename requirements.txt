@@ -3,3 +3,4 @@ python-dotenv
 crewai
 langchain-openai
 crewai-tools
+pysqlite3-binary
