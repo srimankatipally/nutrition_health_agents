@@ -166,9 +166,9 @@ def initialize_api_keys():
     
     # Get API keys with proper session state management
     if "openai_key" not in st.session_state:
-        st.session_state.openai_key = os.getenv("OPENAI_API_KEY", "")
+        st.session_state.openai_key = ""
     if "serper_key" not in st.session_state:
-        st.session_state.serper_key = os.getenv("SERPER_API_KEY", "")
+        st.session_state.serper_key = ""
     
     # API key input fields
     openai_key = st.sidebar.text_input(
