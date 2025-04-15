@@ -4,5 +4,3 @@ crewai
 langchain-openai
 crewai-tools
 pysqlite3-binary
-libsqlite3-dev
-sqlite3
