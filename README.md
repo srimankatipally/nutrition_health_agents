@@ -7,7 +7,7 @@ This project is a personalized nutrition advisor application built using Streaml
 ```
 nutrition_health_agents
 ├── nutrition_health_agent.py # Core functionality for the nutrition health agent
-├── .env                    # Environment variables for API keys
+├── .env                    # Environment variables for API keys or if not you can enter in webapp
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
 ```
