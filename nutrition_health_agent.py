@@ -3,7 +3,9 @@ import os
 #from dotenv import load_dotenv
 from crewai import Agent, Task, Crew
 from langchain_openai import ChatOpenAI  # Changed from LLM
-from crewai_tools import SerperDevTool
+#from crewai_tools import SerperDevTool
+from crewai_tools.tools import SerperTool
+
 
 # Load environment variables
 #load_dotenv()
